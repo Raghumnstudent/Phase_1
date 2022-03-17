@@ -1,0 +1,64 @@
+
+/* for checking the how our website look in different device
+1)inspect
+2)leftside have option called Toogle device toolbar --select it
+3)now you check different devices view
+*/
+
+/* if the width is lessthan 800px, take blue as a background-color */
+body{
+    background-color: blue;
+}
+nav{
+    border: 2px solid black;
+}
+
+/* it apply the background color only if page width is 800px or greater than 800px */
+/* @media all and (min-width:800px){
+    
+    body{
+        background-color: red;
+    }
+} */
+
+/* comment the above query then try the bellow  one*/
+/* select red if width between 800px to 1000px */
+/* 
+@media all and (min-width:800px) and (max-width:1000px){
+    body{
+        background-color: red;
+    }
+} */
+
+/* comment above all then try bellow three */
+@media all and (min-width:480px) and (max-width:768px){
+    body{
+        background-color: green;
+    }
+    div{
+        width: 50%; float: left; border: 5px solid white;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1024px){
+    body{
+        background-color: yellow;
+    }
+    div{
+        width: 50%; float: left;border: 8px solid red;
+    }
+}
+
+@media all and (min-width:1024px) and (max-width:1280px){
+    body{
+        background-color: orange;
+    }
+    div{
+        width:100%; border: 12px solid purple
+    }
+}
+
+@media screen and (orientation:portrait){/* portrait style here*/}
+
+@media screen and (orientation:landscap){/* landscape style here*/}
+

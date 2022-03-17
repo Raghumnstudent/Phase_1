@@ -1,0 +1,56 @@
+/* @keyframes animation2 {
+    from{
+        top:0px;
+        width: 100%;
+        background-color: blue;
+    }
+    to{
+        top: 500px;
+        width:50%;
+        background-color: red;
+    }
+    
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color:blue;
+    margin: auto;
+    border-radius:10px;
+    position:relative;
+    animation-name: animation2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+} */
+
+@keyframes animation3 {
+    0%{
+        top:0px;
+        width: 100%;
+        background-color: blue;
+    }
+
+    50%{
+        background-color: green;
+        width: 150px;
+    }
+    100%{
+        top: 500px;
+        width:50%;
+        background-color: red;
+    }
+    
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color:blue;
+    margin: auto;
+    border-radius:10px;
+    position:relative;
+    animation-name: animation3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}

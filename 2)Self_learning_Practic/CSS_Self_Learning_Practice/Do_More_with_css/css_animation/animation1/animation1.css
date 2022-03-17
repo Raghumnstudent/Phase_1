@@ -1,0 +1,26 @@
+@keyframes animation1 {
+    from{
+        top:0px;
+        background-color: #0450fb;
+    }
+    to{
+        top: 500px;
+        background-color: #fb0450;
+    }
+    
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    /* background-color:blue; */
+    margin: auto;
+    border-radius:50%;
+    position:relative;
+   /* animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;*/
+    /* shortand */
+    animation: animation1 5s infinite;
+
+}

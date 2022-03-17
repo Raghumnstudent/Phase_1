@@ -1,0 +1,16 @@
+.thumbnail{
+    padding: 10px;
+    border: 4px solid #eee;
+    margin: 20px;
+    /* float: right; */
+    box-shadow: 5px 5px 10px black;
+    max-width: 100%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}

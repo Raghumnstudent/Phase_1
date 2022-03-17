@@ -1,0 +1,52 @@
+.navbar{
+    background-color: black;
+    padding: 20px;
+    margin: auto;
+    max-width: 100%;
+}
+a{
+    margin: 80px;
+    text-decoration: none;
+}
+
+a:link{
+    color: red;
+    border: 2px solid green;
+    padding: 5px;
+}
+
+a:hover{
+    border-color: white;
+    background-color:blue;
+    color: orange;
+}
+
+/* combinators */
+
+/* select the all the paragraph tags within the section tag and apply the style */
+section > p{
+    background-color: #e600ff;
+}
+
+/* select the all div tags after the section tag and apply style */
+section + div{
+    background-color: orange;
+}
+
+/*  */
+div ~ p{
+    background-color: red;
+
+}
+
+/* pseudo class */
+
+/* applying the hover property to all paragraph tag within the section tag */
+section p:hover{
+    background-color: purple;
+    color: white;
+}
+
+
+
+

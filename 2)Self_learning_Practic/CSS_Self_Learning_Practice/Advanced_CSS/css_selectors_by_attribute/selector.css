@@ -1,0 +1,66 @@
+
+
+/* selecting the links by using their attribute  */
+
+a[target="_blank"]{
+    background-color: red;
+    color: white;
+    text-decoration: none;   
+}
+
+a[title~="home"]{
+    background-color: green;
+    color: cyan;
+}
+
+/* a[title*="m"]{
+    background-color: rgb(0, 223, 253);
+    color: rgb(51, 255, 0);
+} */
+
+[class*="s"]{
+    background-color: orange;
+}
+
+[class*="b"]{
+    background-color:skyblue;
+}
+
+
+[href*="b"]{
+    background-color: aqua;
+
+}
+
+[href*="a"]{
+    background-color: chartreuse;
+
+}
+
+
+
+input[type="text"]{
+    background-color: greenyellow;
+}
+
+button{
+    background-color: red;
+}
+
+
+nav{
+    padding: 20px;
+    background-color: blueviolet;
+}
+a{
+    margin: 30px;
+}
+
+.container{
+    border: 2px solid black;
+    margin: 20px;
+}
+
+li{
+    text-decoration: none;
+}

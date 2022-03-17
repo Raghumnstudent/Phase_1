@@ -1,0 +1,75 @@
+.navbar{
+    background-color: black;
+    padding: 20px;
+    margin: auto;
+    max-width: 100%;
+}
+a{
+    margin: 80px;
+    text-decoration: none;
+}
+
+a:link{
+    color: red;
+    border: 2px solid green;
+    padding: 5px;
+}
+
+a:hover{
+    border-color: white;
+    background-color:blue;
+    color: orange;
+}
+
+/* pseudo class */
+
+/* apply to paragraph of div tag within the section
+section
+    div
+        p   ----->apply to this type of paragraphs
+*/
+section div p:first-child{
+    background-color: aqua;
+}
+
+/* section div p:last-child{
+    background-color:hotpink;
+} */
+
+
+/* psedo elements */
+
+/* apply the style to first letter of div tag this called pseudo ements*/
+div::first-letter{
+    background-color: rgb(35, 0, 236);
+    color: tomato;
+    font-size: 30px;
+}
+
+p::first-line{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* when you select the content of paragraph tag that time apply this property
+example--->select for copying */
+p::selection{
+    background-color: blueviolet;
+    color: white;
+}
+
+/* add this content before every paragraph */
+p::before{
+    content: "---Start of the Paragraph---";
+    color: green;
+
+}
+
+/* add this content after every paragraph */
+p::after{
+    content: "---End of the Paragraph---";
+    color: green;
+
+}

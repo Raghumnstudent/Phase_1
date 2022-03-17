@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Lobster&family=Pacifico&family=Ubuntu:ital,wght@1,300&display=swap');
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+.navbar{
+    background-color: black;
+    border: 2px dashed red;
+    /* by 20px spaces around the content of home | content | menu | google */
+    padding: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: rgb(119, 19, 19);
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+table{
+    border: 1px solid blue;
+}
+th{
+    width: 12px;
+    border:4px solid #af1313;
+    background-color:gray
+}
+td{
+    text-align: center;
+    padding: 20px;
+    border: solid 1px #222;
+}
+
+.box{
+    margin: auto;
+    width: 1004px;
+}
+
+#one,#four{
+    display:inline-block;
+    background-color: red;
+    width: 500px;
+    height: 200px;
+}
+
+#three,#two{
+    display:inline-block;
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+}
+
+
+/* possion:relative is used to move the entire content to left or top or bottom */
+#hideme{
+    border:2px solid black;
+    position: relative;
+    left:30px;
+    /* right:30px; */
+    top:30px;
+    /* bottom: 30px; */
+    background-color:orange;
+}
+
+
+
+

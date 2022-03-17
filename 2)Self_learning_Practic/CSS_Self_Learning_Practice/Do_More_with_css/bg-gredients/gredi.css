@@ -1,0 +1,23 @@
+.container{
+    width: 1200px;
+    height: 800px;
+    background-color: aqua;
+    margin: auto;
+}
+
+.box{
+    width: 600px;
+    height:400px;
+    background-color: red;
+    border: 2px solid black;
+    /* background: linear-gradient(green,orange,yellow,purple); */
+    /* background: linear-gradient(to top right,green,orange,yellow,purple); */
+    /* background: linear-gradient(to top left,green,orange,yellow,purple); */
+    background: linear-gradient(to bottom right,green,orange,yellow,purple); /*for  chrome*/
+
+    background: -webkit-linear-gradient(to bottom right,green,orange,yellow,purple); /*  for chrome*/
+    background: -o-linear-gradient(to bottom right,green,orange,yellow,purple);  /* for opra bowser*/
+    background: -moz-linear-gradient(to bottom right,green,orange,yellow,purple);  /* for mozila bowser*/
+
+}
+

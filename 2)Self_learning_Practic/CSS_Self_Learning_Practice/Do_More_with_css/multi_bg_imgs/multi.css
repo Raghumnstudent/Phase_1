@@ -1,0 +1,33 @@
+.container{
+    margin: auto;
+    width: 1200px;
+    height: 800px;
+    background-image: url('download.png'),url("https://wallpaperaccess.com/full/2886433.jpg");
+    background-color: red;
+}
+
+/* .box{
+    width: 223px;
+    height: 223px;
+    border-style:solid;
+    border-width: 5px 10px 15px 20px;
+    border-color:red blue orange skyblue;
+    box-shadow:20px 20px  purple; */
+    /* border-radius:25px 10px 50px 70px; booder-radius is used to set the edges of border like rounded  */
+/* } 
+
+
+/* using the image as a border  */
+
+.box{
+        width: 223px;
+        height: 223px;
+        border:solid 10px red;
+        border-image: url("https://wallpaperaccess.com/full/2886433.jpg");
+        border-image-width:20px;  /* setting the image across all border edges */
+        border-image-outset: 20px; /* fixing the setted image at the edges of border to outside of border*/
+}
+    
+
+
+

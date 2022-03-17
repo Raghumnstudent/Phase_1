@@ -1,0 +1,167 @@
+/* importing the text style from google font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Lobster', cursive;
+}
+
+/* using the tags for styling */
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: rgb(119, 19, 19);
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    color: purple;
+}
+
+span{
+    background-color: yellow;
+}
+
+#l{
+    text-decoration: none;
+    text-align: center;
+    text-shadow: rgb(6 103 238) 20px 17px 0px;
+}
+
+/* using the id for styling */
+
+#top{
+    /* font shorthand */
+    font: italic bold 30px fantasy;
+
+    /*
+    font-family:fantasy;
+    font-size:30px;
+    font-style:italic;
+    font-weight:bold
+
+    */
+}
+
+/* using class name  for styling  */
+
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+
+/* adding background images */
+
+body{
+
+    /* background-image: url("https://static.langimg.com/thumb/msid-75619735,imgsize-271277,width-700,height-525,resizemode-75/vijay-karnataka.jpg")  fixed center 800px; */
+    
+    
+    background-image: url("https://static.langimg.com/thumb/msid-75619735,imgsize-271277,width-700,height-525,resizemode-75/vijay-karnataka.jpg");
+
+    /* not repeate the image */
+    background-repeat: no-repeat; 
+    
+    /* it fix the background image*/
+    background-attachment: fixed; 
+    
+    /*Take the image into center of the page*/
+    background-position: center; 
+    
+    /*setting the image size  */
+    background-size: 800px;  
+    
+}
+
+/* bordering */
+
+header{
+
+    /* border: dashed red 8px; */
+    background-color:green;
+
+    border-color: black;
+    border-width: 5px;
+    border-style: dashed;
+    height: 100px;
+    border-left-color: blue;
+    border-right-color: aqua;
+    border-bottom-color: chartreuse;
+    border-right-width: 10px;
+
+  
+    /* margin is used to create the empty space outside of the border and add the conntent using outline  */
+    outline: red 10px solid;
+    /* top left buttom right (clockwise) */
+    margin: 10px 30px 20px 50px;
+    /*
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom:20px ;
+    margin-right: 50px ;
+    */  
+
+    /* padding is used to create the empty space inside of the border */
+    /* By default some spaces are there within border with the influence of tag  */
+    padding: 30px 10px 20px 50px;
+    
+}
+
+
+/* adding the width for container flexibility*/
+
+.container{
+    width:90%;
+    /* or use mx-width:1080px */
+
+    /* auto margin is used to set empty spaces around the entire page*/
+    margin: auto;
+}
+
+.navbar{
+    background-color: black;
+    border: 2px dashed red;
+    /* by 20px spaces around the content of home | content | menu | google */
+    padding: 20px;
+    color: white;
+}
+
+.para{
+    color: green;
+    background-color: aquamarine;
+}
+
+#p1{
+    /* setting the gap between the line of paragraph */
+    line-height: 20px;
+    /* setting the space after every letter */
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#p2{
+    /* setting the gap between the line of paragraph */
+    line-height: 25px;
+}
+#p3{
+    /* setting the gap between the line of paragraph */
+    line-height: 30px;
+}
+#p4{
+    /* setting the gap between the line of paragraph */
+    line-height: 35px;
+}
